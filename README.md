@@ -8,6 +8,7 @@ YOLOv7 GitHub Repository = https://github.com/WongKinYiu/yolov7.git
 
 Place the Trained Model
 Add your trained model file (e.g., name.pt) to the appropriate directory in the YOLOv7 setup.
+After that, install the necessary dependencies by following the instructions provided in the YOLOv7 repository or by running the required dependency installation commands (e.g., pip install -r requirements.txt).
 
 Run the Script
 Execute the Run.bat file. This will start the tagging process automatically.
