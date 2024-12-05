@@ -13,7 +13,7 @@ model = attempt_load(weights_path, map_location=device)
 stride = int(model.stride.max())
 
 
-image_folder = 'image.path'
+image_folder = '&//image.path'
 desktop_path = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')  # user desktop path
 output_folder = os.path.join(desktop_path, 'runs')  #output folder path
 label_folder = 'labels'
