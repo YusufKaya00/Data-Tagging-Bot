@@ -1,7 +1,16 @@
-# Data-Tagging-Bot
-data  tagging bot with python , 
+Data Tagging Bot
+A Python-based data tagging bot that tags images on your desktop using a trained model.
 
-that code can be tag on desktop images with trained model 
-first you need to download yolov7-main 
-then put trained model into packgace and trained model 
-now u can run Run.exe
+Instructions
+Download YOLOv7
+First, download the YOLOv7 repository from the following link:
+YOLOv7 GitHub Repository = https://github.com/WongKinYiu/yolov7.git
+
+Place the Trained Model
+Add your trained model file (e.g., name.pt) to the appropriate directory in the YOLOv7 setup.
+
+Run the Script
+Execute the Run.bat file. This will start the tagging process automatically.
+
+Output
+After running the script, a runs package will be created automatically on your desktop. The runs folder will contain the tagged outputs.
